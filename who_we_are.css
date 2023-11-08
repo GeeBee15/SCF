@@ -1,0 +1,253 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #000;
+  
+}
+
+.navbar img{
+  width: 80px;
+}
+
+.navbar-toggler{
+  background-color: #fff;
+}
+
+.navbar-toggler-icon{
+  display: inline-block;
+ 
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+  color: goldenrod;
+}
+
+.navbar-nav-active{
+  background-color: #000;
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+
+body{
+  margin:0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+  font-size: 18px;
+  line-height: 1.6;
+ 
+}
+
+/* About-Us */
+#aboutSCF{
+  padding-top:12vh;
+  text-align: center;
+  color: goldenrod;
+}
+
+#aboutus h5{
+  margin:20px;
+  padding:20px;
+  position: relative;
+  text-align: center;
+  color:#fff;
+  text-decoration: underline;
+
+}
+#aboutus img{
+  margin-top:60px;
+  margin-left: 50px;
+  height:50%;
+  width:100%;
+}
+
+#aboutus p{
+  color:#fff;
+  text-align: justify;
+  
+}
+
+/* Mission-Vision */
+#mission-vision h5{
+  margin:20px;
+ padding-top:60px;
+ padding-bottom: 40px;
+ padding-left:20px;
+ padding-right:20px;
+  position: relative;
+  text-align: center;
+  color:#fff;
+  text-decoration: underline;
+}
+
+
+#mission-vision img{
+  margin-top:60px;
+  margin-right: 50px;
+  height:50%;
+  width:100%;
+}
+
+#mission-vision p{
+    text-align: center;
+    color:#fff;
+}
+
+/* Statement-Of-Faith */
+
+#statement h5{
+  margin:20px;
+  padding:20px;
+  position: relative;
+  text-align: center;
+  color:#fff;
+  text-decoration: underline;
+}
+
+#statement img{
+  margin-top:20px;
+  margin-left: 50px;
+  height:50%;
+  width:100%;
+
+}
+
+#statement li{
+  color:#fff;
+  text-align:center;
+  list-style-type: none;
+
+}
+
+/* slideshow */
+#pcg h5{
+  margin:20px;
+  padding:20px;
+  position: relative;
+  text-align: center;
+  color:#fff;
+  text-decoration: underline;
+}
+
+.slides{
+    padding-top: 0px;
+    display:none;
+    
+}
+
+.cursor{
+    cursor:pointer;
+}
+
+.prev,
+.next{
+    cursor:pointer;
+    position:absolute;
+    top: 40%;
+    width: auto;
+    padding: 10px;
+    margin-top: -50px;
+    background-color:#fff;
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: goldenrod;
+  color: #fff;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .caption-container {
+    text-align: center;
+    background-color: goldenrod;
+    padding-top: 6px;
+    padding-bottom: 1px;
+    color: white;
+    
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column {
+    float: left;
+    width: 20%;
+  
+  }
+
+  .thumbnail {
+    opacity: 0.9;
+    margin-bottom:40px;
+    height: calc(100%-40px);
+  }
+  
+  .active,
+  .thumbnail:hover {
+    opacity: 1;
+  }
+
+  .container{
+    position: relative;
+    padding:2px 0 5px;
+
+}
+/* footer */
+
+footer{
+  background:#000;
+  color: #fff;
+  position: fixed;
+  bottom:0;
+  width:100vw;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+
+footer h5{
+  padding-top:5px;
+  font-size: medium;
+}
+footer p{
+  font-size: medium;
+}

@@ -1,0 +1,110 @@
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      float: right;
+      display: block;
+      text-align: left;
+    }
+    .himepage{
+      margin-left: auto;
+      margin-right:auto;
+    }
+    a.btn{
+      top:25%;
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+  
+    .navbar{
+        padding: 10px 0;
+    }
+    .navbar-brand{
+        width:100px;
+    }
+    .nav-item ul li{
+        margin-left: 5px;
+    }
+    .nav-item ul li a{
+        width: 30px;
+        height: 30px;
+        line-height:30px;
+        font-size:16px;
+    }
+
+  }
+
+
+
+
+
+
+
+   .hero-banner{
+    font-size:16px;
+
+   }
+   .hero-banner h1{
+    font-size: 6vw;
+
+   }
+   .about-section,
+   contact-section{
+    padding:60px 0;
+   }
+
+   h2{
+    font-size:30px;
+   }
+   h2.left{
+    text-align:center;
+
+   }
+   h2.left span{
+    padding-left: 40px;
+   }
+
+
+#details p{
+    text-align:left;
+    padding:0;
+    margin:0;
+}
+
+#details i{
+    text-align:left;
+    padding:0;
+    margin:0;
+}
